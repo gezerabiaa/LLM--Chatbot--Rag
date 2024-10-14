@@ -9,8 +9,7 @@ def main():
 
     if st.button("Submit"):
         # Call the function with RAG
-        model_url = "http://localhost:5000/api/generate"
-        #model_url = "http://localhost:11434/api/generate"
+        model_url = " "
         model = "llama3.1"
 
         if prompt:
